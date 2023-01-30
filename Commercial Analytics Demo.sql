@@ -57,4 +57,12 @@ ORDER BY
 
 -- COMMAND ----------
 
+-- COMMAND ----------
+
+
+-- profile the data
+Select * from samples.tpch.customer
+
+
+-- COMMAND ----------
 
