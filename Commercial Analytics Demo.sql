@@ -73,23 +73,6 @@ GROUP BY
 ORDER BY
     revenue DESC;
 
--- COMMAND ----------
-
--- profile the data
-Select * from samples.tpch.customer
-
--- COMMAND ----------
-
--- MAGIC %python
--- MAGIC pip install bamboolib
-
--- COMMAND ----------
-
--- MAGIC %python
--- MAGIC import bamboolib as bam
--- MAGIC bam
-
--- COMMAND ----------
 
 
 
